@@ -1,0 +1,27 @@
+<?php
+return array(
+	'my_invoice' => 'My Invoices',
+	'common_invoice_id' => 'Invoice Id',
+	'date_added' => 'Date Added',
+	'amount' => 'Amount',
+	'total_amount' => 'Total Amount',
+	'paid_date' => 'Paid Date',
+	'user_notes' => 'Notes',
+	'reference_type' => 'Reference Type',
+	'reference_id' => 'Reference Id',
+	'status' => 'Status',
+	'action' => 'Action',
+	'invalid_id' => 'Invalid Id',
+	'no_result' => 'No invoices have done yet',
+	'invoice_details' => 'Invoice Details',
+	'invoice_from' => 'Invoice From',
+	'invoice_to' => 'Invoice To',
+	'my_invoice_list' => 'My Invoice List',
+	'description' => 'Description',
+	'site_name' => 'Site Admin',
+	'invoice_added' => 'Invoice Added',
+	'paid' => 'Paid',
+	'unpaid' => 'Unpaid',
+	'created_for_product_purchase' => 'Created for Products Purchase',
+);
+?>

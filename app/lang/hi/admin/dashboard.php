@@ -1,0 +1,18 @@
+<?php return array (
+  'dashboard' => 'डैशबोर्ड',
+  'statistics_and_more' => 'सांख्यिकी और अधिक',
+  'total_members' => 'कुल सदस्य',
+  'members' => 'सदस्य',
+  'activated' => 'सक्रिय',
+  'joined_today' => 'आज में शामिल हो गए',
+  'this_week' => 'इस सप्ताह',
+  'this_month' => 'इस महीने',
+  'marketplace_stats' => 'बाजार आँकड़े',
+  'total_items' => 'कुल आइटम्स',
+  'to_be_activated' => 'सक्रिय किया जा करने के लिए',
+  'added_today' => 'आज जोड़ा गया',
+  'site_earnings' => 'साइट आय',
+  'total' => 'कुल',
+  'today' => 'आज',
+  'pending' => 'लंबित',
+);

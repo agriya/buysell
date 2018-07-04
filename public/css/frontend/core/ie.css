@@ -1,0 +1,240 @@
+/**
+*
+* @author		ganesh_119at09 (Sridharan Team)
+* @copyright 	Copyright (c) 2012 {@link http://www.agriya.com Agriya Infoway}
+* @license 		http://www.agriya.com Agriya Infoway Licence
+* @version 		SVN: $Id: ie.css ganesh_119at09 $
+* @since 		2013-10-09
+*/
+
+.navbar-nav > li > a {
+	padding:7px 15px !important;
+}
+
+.form-horizontal .control-label {
+	text-align:left !important;
+}
+
+input[type="file"] {
+	height:28px;
+}
+
+input[type="checkbox"] {
+	margin-top:4px;	
+}
+
+.header {
+	border-bottom:2px solid #ddd !important;
+}
+
+.header-right .nav-menu a.ie-hdrcart {
+	text-align:center;
+	width:75px;
+}
+
+.header-right .nav-menu .profile-dropmenu > a {
+	text-align:center;
+	width:100px;
+}
+
+.header-nav li.txt-rig {
+	padding-right:0;
+}
+
+.login-page .login-container {
+	top:5%;
+	-webkit-transform:none; 
+	-ms-transform:none;  
+	transform:none; 
+}
+
+.index-banner figure,
+.banner-item,
+.shop-det,
+.tooltip-hover:hover .arrow-icon,
+.toppicks-list li.active .arrow-icon {
+	background:none;
+	zoom:1;
+}
+
+.index-banner figure {
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000,endColorstr=#CC000000);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000,endColorstr=#CC000000);
+}
+
+.banner-item {
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);
+	border-bottom:1px solid #000 !important;
+}
+
+.shop-det,
+.tooltip-hover:hover .arrow-icon,
+.toppicks-list li.active .arrow-icon {
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+}
+
+.index-list li {
+	background-color:#fff;
+	border-bottom:1px dashed #bababa;
+}
+
+.index-list li + li + li {
+	background-color:#fff;
+	border-bottom:0;
+}
+
+.index-list li + li {
+	background:#f5f5f5;
+}
+
+.index-list li ul li {
+	background:transparent;
+	border:0;
+}
+
+.feature-list ul {
+	margin-bottom:35px;
+}
+
+.news-letter {
+	margin-top:0;
+	padding-bottom:0;
+}
+
+.recfav-item > ul > li {
+	padding-right:0;
+	padding-left:15px;
+}
+
+.recfav-item > ul > li:first-child {
+	padding-left:0;
+}
+
+.recfav-list .recfav-item figcaption {
+	min-height:auto;
+}
+
+.toppick-item ul > li {
+	background-color:#eee !important;
+	margin:0 1px 0 2px;
+}
+
+.viewpg-item li,
+.viewpg-item li+li+li {
+	margin-right:20px;
+}
+
+.viewpg-item li+li,
+.viewpg-item li+li+li+li,
+.viewpg-item li ul li {
+	margin-right:0;
+}
+
+.popup-container .tab-content {
+	max-height:280px !important;
+}
+
+.cart-list .blog-item .action-btn i {
+	font-size:14px !important;
+}
+
+/*-- dl-horizontal 
+========================== */
+.dl-horizontal-new dt {
+	text-align:left !important;
+	width:105px !important;
+}
+
+.paypal-btn button,
+.dl-horizontal-new dd {
+	margin-left:115px !important;
+}
+
+.table .invoice-detail .dl-horizontal-new dt {
+	width:170px !important;
+}
+
+.table .invoice-detail .dl-horizontal-new dd {
+	margin-left:180px !important;	
+}
+
+.login-form .form-group label {
+	text-align:right !important;	
+}
+
+.login-form .form-group label.checkbox {
+	text-align:left !important;	
+}
+
+.shipping-details dt {
+	float:left !important;	
+	width:80px !important;	
+	text-align:left !important;	
+}
+
+.shipping-details dd {
+	margin-left:80px !important;	
+}
+
+.cart-list .blog-item .row {
+	margin:0;
+}
+
+.cart-list .col-md-2 {
+	width:185px;
+}
+
+.cart-list .col-md-8 {
+	width:795px;
+}
+
+.carousel-slider .carousel-control {
+	filter:0;
+}
+
+label {
+	max-width:inherit;
+}
+
+#addProductPreviewFilesfrm table th {
+	border-bottom:1px solid #ddd !important;
+}
+
+.carousel-slider span.featured-blk {
+	background:none;
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#dd771f,endColorstr=#f78828);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#dd771f,endColorstr=#f78828);
+	zoom:1;
+}
+
+.carousel-slider span.featured-blk:before {
+	border:0;
+}
+
+.carousel-slider span.featured-blk small {
+	border:1px dashed #fff;
+}
+
+#importerFrm input[type="file"].filestyle {
+	height:0;
+}
+
+.rating-container:before,
+.rating-container .rating-stars:before {
+	width:78px;
+	height:13px;
+	content:'';
+    background:url('../images/general/rating-muted.png') no-repeat 0 0;
+    display:block;
+    z-index:1;
+}
+
+.rating-container .rating-stars:before {
+    background:url('../images/general/rating-range.png') no-repeat 2px 0;
+}
+
+.wid-per-70 {
+	width:70% !important;
+}

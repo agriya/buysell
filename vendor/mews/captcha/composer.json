@@ -1,0 +1,27 @@
+{
+    "name": "mews/captcha",
+    "description": "Captcha Package for Laravel 4",
+    "keywords": ["L4", "Laravel 4", "Laravel", "Captcha", "security", "captcha image", "mecaptcha"],
+    "homepage": "http://github.com/mewebstudio/captcha",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muharrem ERIN",
+            "email": "me@mewebstudio.com"
+        },
+        {
+            "name": "Sam Yong",
+            "email": "sam@mauris.sg"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "~4"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Mews\\Captcha\\": "src/Mews/Captcha"
+        }
+    }
+}

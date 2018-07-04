@@ -1,0 +1,60 @@
+{
+	"name": "cartalyst/sentry-social",
+	"description": "Social Integration with Sentry",
+	"keywords": ["auth", "security", "laravel", "codeigniter", "fuelphp"],
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Cartalyst LLC",
+			"email": "help@cartalyst.com"
+		},
+		{
+			"name": "Dan Syme",
+			"email": "dan.syme@cartalyst.com",
+			"role": "Creator & Designer"
+		},
+		{
+			"name": "Ben Corlett",
+			"email": "ben.corlett@cartalyst.com",
+			"role": "Developer"
+		},
+		{
+			"name": "Bruno Gaspar",
+			"email": "bruno.gaspar@cartalyst.com",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3",
+
+		"cartalyst/sentry": "2.0.*",
+		"lusitanian/oauth": "0.1.*",
+		"rmccue/requests": ">=1.0"
+	},
+	"require-dev": {
+		"mockery/mockery": "0.7.2",
+
+		"illuminate/database": "4.0.*"
+	},
+	"autoload": {
+		"classmap": [
+			"src/controllers",
+			"src/migrations"
+		],
+		"psr-0": {
+			"Cartalyst\\SentrySocial": "src/"
+		}
+	},
+	"extra": {
+		"component": "package",
+		"frameworks": ["Laravel 3", "Laravel 4", "CodeIgniter 3", "FuelPHP 1"],
+		"versions": {
+			"1": "1.1/master",
+			"2": "master"
+		},
+		"branch-alias": {
+			"dev-master": "2.0-dev"
+		}
+	},
+	"minimum-stability": "dev"
+}

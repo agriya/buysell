@@ -1,0 +1,45 @@
+<?php
+/**
+ * Added by periyasami_145at11
+ *
+ */
+
+return array(
+	'profile' => 'Profile',
+	'profile_title' => "VAR_USERNAME's Profile",
+	'no_records_found' => 'No records found',
+	'invalid_user' => 'User does not exist!',
+	'profile' => 'Profile',
+	'feedback' => 'Feedback',
+	'contact' => 'Contact',
+	'shop' => 'Shop',
+	'shop_not_added_yet' => 'Shop has not been set up yet',
+	'user_about' => 'About',
+	'joined_text' => 'Joined VAR_DATE_OF_JOIN',
+	'shop_products' => 'Shop Products',
+	'see_more' => 'See more',
+	'profile_noshop_products_found' => 'No products found!',
+	'edit' => 'Edit',
+	'contact' => 'Contact',
+	'circle_listing_followers' => 'In :memincircle circle',
+	'circle_listing_following' => ':memname\'s circle',
+	'favorites' => 'Favourites',
+	'circles' => 'Circles',
+	'in_your_circle' => 'In your circle',
+	'add_to_circle' => 'Add to circle',
+	'about' => 'About',
+	'favorite_items' => 'Favourite Items',
+	'favorite_shop' => 'Favourite Shop',
+	'no_products_found' => 'No Products Found',
+	'need_login_to_add_circle' => 'You need to login to add to circle',
+	'no_members_found_search' => 'No members found matching your search',
+	'treasury_lists' => 'Treasury lists',
+	'shop_not_favorited_yet' => 'Shop has not been favourited yet',
+	'invalid_user' => 'Invalid user have been selected',
+	'added_to_circle' => 'Added to Circle',
+	'removed_from_circle' => 'Removed from Circle',
+	'shop_not_setted' => 'Shop not yet set.',
+	'you_have_not_in_any_circle' => 'You have not in any Circle.',
+	'not_in_circle' => 'Not in Circle',
+	'have_not_in_any_circle' => 'have not in any Circle.',
+);

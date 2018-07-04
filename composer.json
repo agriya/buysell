@@ -1,0 +1,52 @@
+{
+	"name": "laravel/laravel",
+	"description": "Buysell",
+	"keywords": ["framework", "laravel", "agriya", "ahsan", "buysell"],
+	"license": "MIT",
+	"require": {
+		"laravel/framework": "4.1.*",
+		"cartalyst/sentry": "2.1.*",
+		"davejamesmiller/laravel-breadcrumbs": "2.1.0",
+		"intervention/image": "1.*",
+		"loic-sharma/profiler": "1.1.*",
+		"mews/captcha": "dev-master",
+		"watson/sitemap": "1.1.*",
+		"ceesvanegmond/minify": "2.0.*"
+	},
+	"repositories": [
+    	{
+        	"type": "composer",
+        	"url": "https://packages.cartalyst.com"
+    	}
+	],
+	"autoload": {
+		"classmap": [
+			"app/commands",
+			"app/controllers",
+			"app/database/migrations",
+			"app/database/seeds",
+			"app/models",
+			"app/services",
+			"app/lib",
+			"app/plugins",
+			"app/tests/TestCase.php"
+		]
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"php artisan clear-compiled",
+			"php artisan optimize"
+		],
+		"post-update-cmd": [
+			"php artisan clear-compiled",
+			"php artisan optimize"
+		],
+		"post-create-project-cmd": [
+			"php artisan key:generate"
+		]
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "stable"
+}

@@ -1,0 +1,17 @@
+label {
+	max-width:inherit;
+}
+
+#newsletterSubscriberImportFrm fieldset .btn.purple input {
+	color:#000 !important;
+}
+
+header .top-menu li a,
+header .top-menu li:hover a,
+header .top-menu li a:hover {
+	line-height:16px !important;
+}
+
+#massEmailComposerfrm .form-group.has-error input[type="text"] {
+	float:none;
+}

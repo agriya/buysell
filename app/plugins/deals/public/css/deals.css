@@ -1,0 +1,161 @@
+/**
+*
+* @author		ganesh_119at09 (Sridharan Team)
+* @copyright 	Copyright (c) 2012 {@link http://www.agriya.com Agriya Infoway}
+* @license 		http://www.agriya.com Agriya Infoway Licence
+* @version 		SVN: $Id: Member end custom.css ganesh_119at09 $
+* @since 		2013-10-09
+*/
+
+/*-- DEALS PAGES
+========================== --*/
+.deals-menu {
+	overflow:inherit;
+}
+
+.adddeals-md .col-md-2 {
+	margin:50px 0 20px 0;
+	display:inline-block;
+}
+
+.deal-listblk .prodet-info {
+	min-height:120px;
+	line-height:19px;
+	font-size:13px;
+}
+
+.bs-prodet .deals-discount {
+	font:600 11px/53px Arial, Helvetica, sans-serif;
+	background:url(../images/general/deal-image.png) no-repeat right center;
+	position:absolute;
+	top:-15px;
+	right:-11px;
+	height:50px;
+	width:50px;
+	z-index:1;
+	text-align:center;
+	color:#242424;
+}
+
+.dealindex-menu .deals-menu .nav-tabs li a {
+	background-color:#eee;
+	margin:0 2px 1px 0 !important;
+}
+
+.dealindex-menu .deals-menu .nav-tabs li a:hover {
+	background-color:#ddd;
+}
+
+.deals-menu .dropdown-menu li a {
+	padding:6px 13px;
+}
+
+/*-- DEALS SOCIAL_SHARE
+========================== --*/
+.deals-share li {
+	float:left;
+	margin:0 10px 0 0;
+	line-height:25px;
+}
+
+.deals-share li a {
+	padding:5px 8px;
+	border-radius:3px !important;
+}
+
+.deals-share li a.btn-primary {
+	background-color:#347cb9;
+	border-color:#2a6496;
+}
+.deals-share li a.btn-primary:hover {
+	background-color:#3071a9;
+	border-color:#285e8e;
+}
+
+.deals-share li a i sub {	
+	width:1em;
+}
+
+/*-- VIEW DEALS
+========================== --*/
+.viewdeal-lft .panel .panel-heading {
+	font-size:18px;
+	font-weight:900;
+}
+
+.viewdeal-lft .viewbg-deal {
+	background:#f2f2f2;
+	padding:5px;
+	position:relative;
+}
+
+.viewdeal-lft .viewbg-deal .label {
+	padding:10px 15px;
+	position:absolute;
+	left:5px;
+	top:5px;
+	font-size:16px;
+} 
+
+.viewdeal-para {
+	min-height:90px;
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+
+.viewdeal-para a {
+	font-size:12px;
+}
+
+.listview-deals, .viewdeal-para {
+	border-bottom:1px solid #ddd;
+}
+
+.listview-deals li {
+	float:left;
+	margin:0 15px 10px 0;
+}
+
+.app-shopdeal ul li:nth-child(4n) {
+	padding-right:0;
+}
+
+.bs-viewpage h2.title-three {
+	font-size:13px;
+}
+
+.bs-prodet .dealitem-price p {
+	color:#333;
+	margin:5px 0;
+	overflow:hidden;
+}
+
+.bs-prodet .dealitem-price p span {
+	font-size:13px;
+	float:left;
+	margin-right:10px;
+}
+
+.bs-prodet .dealitem-price p span strong {
+	font-size:14px;
+}
+
+/*-- MEDIA QUERY
+========================== --*/
+@media (min-width:1020px) {
+	.adddeals-md .col-md-5 {
+		width:38%;
+	}
+}
+
+@media (max-width:480px) {
+	.adddeals-md [class*="col-xs-"] {
+		width:100%;
+	}
+	
+	.prolist-max768 li,
+	.shop-info .pull-right {
+		float:none !important;
+		margin:0 auto;	
+	}
+}

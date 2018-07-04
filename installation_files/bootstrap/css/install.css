@@ -1,0 +1,215 @@
+/**
+*
+* @author		ganesh_119at09 (Sridharan Team)
+* @copyright 	Copyright (c) 2012 {@link http://www.agriya.com Agriya Infoway}
+* @license 		http://www.agriya.com Agriya Infoway Licence
+* @version 		SVN: $Id: install.css ganesh_119at09 $
+* @since 		2013-10-09
+*/
+
+.container {
+	margin:20px auto;
+	width:940px;
+}
+
+h1 {
+	margin:0 0 20px;
+}
+
+h2 {
+	font-size:28px;
+	margin:0 0 20px;
+}
+
+.mb10 {
+	margin-bottom:10px;
+}
+
+.alert {
+	margin-bottom:15px;
+	padding:12px 10px;
+}
+
+.alert h3 {
+	margin:0 0 5px;
+}
+
+label {
+	font:normal 14px 'HelveticaNeue', Arial, Helvetica, sans-serif;
+}
+
+.mb20 {
+	margin-bottom:20px;
+}
+
+.form-horizontal .control-label {
+	text-align:left;
+}
+
+.bs-install {
+	border:1px solid #ddd;
+	box-shadow:0 0 5px #ddd;
+	padding:20px;
+	width:940px;
+}
+
+.bs-install .col-sm-3 {
+	width:29%;
+}
+
+.bs-install .col-sm-9 {
+	width:71%;
+}
+
+.bs-install ul.ver-inline-menu {
+	border:1px solid #e8e5e5;
+}
+
+.tab-content h3 {
+	border-bottom:1px solid #e8e5e5;
+	color:#595858;
+	font-size:20px;
+	line-height:28px;
+	margin:3px 0 25px;
+	padding-bottom:5px;
+}
+
+.help-block {
+	color:#bebebe;
+	font-size:13px;
+	margin-top:2px;
+}
+
+.nav-pills > li {
+	float:none;
+}
+
+.nav-pills > li a {
+	border-bottom:1px solid #f2f2f2;
+	cursor:default;
+	display:block;
+	outline:none;
+}
+
+.nav-pills > li:last-child {
+	border-bottom:0;
+}
+
+.nav-pills > li + li {
+	margin-left:0;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+	background-color:#f7f7f7;
+	cursor:default;
+}
+
+.license-agree p {
+	line-height:20px;
+}
+
+.license-agree p,
+.license-agree ul {
+	margin-bottom:20px;
+}
+
+.license-agree li {
+	margin-bottom:9px;
+}
+
+.progress {
+	margin:6px 0 26px;
+}
+
+.tab-content .progress {
+	margin:0;
+}
+
+.tab-content > .tab-pane {
+	background:#f7f7f7;
+	border:1px solid #e8e5e5;
+	padding:15px;
+}
+
+.system div.alert:last-child,
+.tab-pane form div.form-group:last-child {
+	margin-bottom:0;
+}
+
+.pager {
+	margin:25px 0 0;
+}
+
+.pager li > a,
+.alert i {
+	background-color:transparent;
+	background-image:url(../../images/pager_install.png);
+	border:0;
+	box-shadow:none;
+	cursor:pointer;
+	padding:13px;
+	text-indent:-999em;
+	height:33px;
+	width:182px;
+}
+
+.alert-success i { 
+	background-position:-124px 4px; 
+}
+
+.alert-danger i { 
+	background-position:-154px 4px; 
+}
+
+.pager li.previous a,
+.pager li.next a,
+.pager li.previous.disabled a,
+.pager li.next.disabled a {
+	width:21px; 
+}
+
+.pager li.previous a { 
+	background-position:-37px 0; 
+}
+
+.pager li.previous.disabled a { 
+	background-position:0 0;
+}
+
+.pager li.next a { 
+	background-position:-65px 0; 
+}
+
+.pager li.next.disabled a { 
+	background-position:-96px 0; 
+}
+
+/*-- RESPONSIVE STYLES
+========================== --*/
+@media screen and (max-width: 820px) {
+	.container,
+	.bs-install {
+		max-width:730px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.container,
+	.bs-install {
+		max-width:570px;
+	}
+
+	.bs-install .col-sm-3,
+	.bs-install .col-sm-9 {
+		margin-bottom:20px;
+		width:100%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.container,
+	.bs-install {
+		max-width:300px;
+	}
+}

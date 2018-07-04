@@ -1,0 +1,4 @@
+{
+	"enabled": true,
+	"provider": "App\\Plugins\\FeaturedSellers\\ServiceProvider"
+}

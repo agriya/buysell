@@ -1,0 +1,17 @@
+<?php return array (
+  'user_code' => 'उपयोगकर्ता कोड',
+  'url_slug' => 'URL अलसाना',
+  'global_transaction_fee_used' => 'ग्लोबल साइट लेनदेन शुल्क सेटिंग्स का उपयोग करें',
+  'site_transaction_fee_type' => 'साइट लेनदेन शुल्क के प्रकार',
+  'site_transaction_fee' => 'साइट लेनदेन शुल्क "फ्लैट" में',
+  'site_transaction_fee_percent' => 'साइट लेनदेन शुल्क \'प्रतिशत\' में',
+  'flat_fee_type' => 'फ्लैट',
+  'percentage_fee' => 'प्रतिशत',
+  'mix_fee' => 'मिक्स',
+  'product_status' => 'उत्पाद की स्थिति',
+  'notes_to_user' => 'उपयोगकर्ता को नोट्स',
+  'save_product' => 'सहेजें',
+  'view_product' => 'देखें उत्पाद',
+  'invalid_slug_url' => 'अमान्य स्लग यूआरएल',
+  'invalid_user_code' => 'अमान्य उपयोगकर्ता कोड',
+);

@@ -1,0 +1,9 @@
+{
+	"name" : "Sentry Social 2",
+	"type" : "package",
+	"public" : false,
+	"branch" : "master",
+	"github" : "cartalyst/sentry-social",
+	"travis" : false,
+	"demo" : false
+}
